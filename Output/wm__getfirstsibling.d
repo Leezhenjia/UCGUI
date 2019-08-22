@@ -1,0 +1,14 @@
+..\..\output\wm__getfirstsibling.o: ..\..\UCGUI\GUI\WM\WM__GetFirstSibling.c
+..\..\output\wm__getfirstsibling.o: ..\..\UCGUI\GUI\WM\WM_Intern.h
+..\..\output\wm__getfirstsibling.o: ..\..\UCGUI\GUI\WM\WM.h
+..\..\output\wm__getfirstsibling.o: ..\..\UCGUI\GUI\Core\GUI_ConfDefaults.h
+..\..\output\wm__getfirstsibling.o: ..\..\UCGUI\Config\GUIConf.h
+..\..\output\wm__getfirstsibling.o: ..\..\UCGUI\GUI\Core\GUIType.h
+..\..\output\wm__getfirstsibling.o: ..\..\UCGUI\GUI\Core\LCD.h
+..\..\output\wm__getfirstsibling.o: ..\..\UCGUI\GUI\WM\WM_GUI.h
+..\..\output\wm__getfirstsibling.o: ..\..\UCGUI\GUI\Core\GUI_Protected.h
+..\..\output\wm__getfirstsibling.o: ..\..\UCGUI\GUI\Core\GUI.h
+..\..\output\wm__getfirstsibling.o: ..\..\UCGUI\GUI\Core\GUIVersion.h
+..\..\output\wm__getfirstsibling.o: ..\..\UCGUI\GUI\Core\LCD_Protected.h
+..\..\output\wm__getfirstsibling.o: ..\..\UCGUI\GUI\Core\GUIDebug.h
+..\..\output\wm__getfirstsibling.o: ..\..\UCGUI\GUI\Core\GUI_X.h

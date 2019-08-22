@@ -1,0 +1,541 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.18.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: ZJ L, Ut, LIC=IK1BS-LACUW-Z9SG9-4LRRG-JBCKI-4XE5Z
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.18
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18
+Dialog DLL:      DCM.DLL V1.13.6.0
+Target DLL:      CMSIS_AGDI.dll V1.25.7.0
+Dialog DLL:      TCM.DLL V1.14.8.0
+ 
+<h2>Project:</h2>
+G:\STM32_UCOSii\UCGUI\Project\RVMDK（uv5）\BH-F103.uvprojx
+Project File Date:  08/11/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'LDC'
+compiling GUI_X_uCOS.c...
+..\..\UCGUI\GUI_X_uCOS.c(80): warning:  #223-D: function "OS_X_Delay" declared implicitly
+      OS_X_Delay(1);
+..\..\UCGUI\GUI_X_uCOS.c: 1 warning, 0 errors
+compiling main.c...
+..\..\User\main.c(43): warning:  #223-D: function "OS_Init" declared implicitly
+      OS_Init();  //系统??始化
+..\..\User\main.c: 1 warning, 0 errors
+compiling bsp_ili9341_lcd.c...
+..\..\UCGUI\LCDDriver\bsp_ili9341_lcd.c(784): error:  #165: too few arguments in function call
+  		ILI9341_SetPointPixel ( usX_Current, usY_Current );//画?? 
+..\..\UCGUI\LCDDriver\bsp_ili9341_lcd.c(869): error:  #165: too few arguments in function call
+  				ILI9341_SetPointPixel ( usX_Center + sCurrentX, usY_Center + sCountY );           //1，?芯慷??? 
+..\..\UCGUI\LCDDriver\bsp_ili9341_lcd.c(870): error:  #165: too few arguments in function call
+  				ILI9341_SetPointPixel ( usX_Center - sCurrentX, usY_Center + sCountY );           //2       
+..\..\UCGUI\LCDDriver\bsp_ili9341_lcd.c(871): error:  #165: too few arguments in function call
+  				ILI9341_SetPointPixel ( usX_Center - sCountY,   usY_Center + sCurrentX );           //3
+..\..\UCGUI\LCDDriver\bsp_ili9341_lcd.c(872): error:  #165: too few arguments in function call
+  				ILI9341_SetPointPixel ( usX_Center - sCountY,   usY_Center - sCurrentX );           //4
+..\..\UCGUI\LCDDriver\bsp_ili9341_lcd.c(873): error:  #165: too few arguments in function call
+  				ILI9341_SetPointPixel ( usX_Center - sCurrentX, usY_Center - sCountY );           //5    
+..\..\UCGUI\LCDDriver\bsp_ili9341_lcd.c(874): error:  #165: too few arguments in function call
+          ILI9341_SetPointPixel ( usX_Center + sCurrentX, usY_Center - sCountY );           //6
+..\..\UCGUI\LCDDriver\bsp_ili9341_lcd.c(875): error:  #165: too few arguments in function call
+  				ILI9341_SetPointPixel ( usX_Center + sCountY,   usY_Center - sCurrentX );           //7 	
+..\..\UCGUI\LCDDriver\bsp_ili9341_lcd.c(876): error:  #165: too few arguments in function call
+          ILI9341_SetPointPixel ( usX_Center + sCountY,   usY_Center + sCurrentX );           //0				
+..\..\UCGUI\LCDDriver\bsp_ili9341_lcd.c(881): error:  #165: too few arguments in function call
+  			ILI9341_SetPointPixel ( usX_Center + sCurrentX, usY_Center + sCurrentY );             //1，?芯慷???
+..\..\UCGUI\LCDDriver\bsp_ili9341_lcd.c(882): error:  #165: too few arguments in function call
+  			ILI9341_SetPointPixel ( usX_Center - sCurrentX, usY_Center + sCurrentY );             //2      
+..\..\UCGUI\LCDDriver\bsp_ili9341_lcd.c(883): error:  #165: too few arguments in function call
+  			ILI9341_SetPointPixel ( usX_Center - sCurrentY, usY_Center + sCurrentX );             //3
+..\..\UCGUI\LCDDriver\bsp_ili9341_lcd.c(884): error:  #165: too few arguments in function call
+  			ILI9341_SetPointPixel ( usX_Center - sCurrentY, usY_Center - sCurrentX );             //4
+..\..\UCGUI\LCDDriver\bsp_ili9341_lcd.c(885): error:  #165: too few arguments in function call
+  			ILI9341_SetPointPixel ( usX_Center - sCurrentX, usY_Center - sCurrentY );             //5       
+..\..\UCGUI\LCDDriver\bsp_ili9341_lcd.c(886): error:  #165: too few arguments in function call
+  			ILI9341_SetPointPixel ( usX_Center + sCurrentX, usY_Center - sCurrentY );             //6
+..\..\UCGUI\LCDDriver\bsp_ili9341_lcd.c(887): error:  #165: too few arguments in function call
+  			ILI9341_SetPointPixel ( usX_Center + sCurrentY, usY_Center - sCurrentX );             //7 
+..\..\UCGUI\LCDDriver\bsp_ili9341_lcd.c(888): error:  #165: too few arguments in function call
+  			ILI9341_SetPointPixel ( usX_Center + sCurrentY, usY_Center + sCurrentX );             //0
+..\..\UCGUI\LCDDriver\bsp_ili9341_lcd.c: 0 warnings, 17 errors
+compiling app.c...
+..\..\App\app.c(45): warning:  #1-D: last line of file ends without a newline
+  }
+..\..\App\app.c: 1 warning, 0 errors
+compiling GUI__DrawBitmap16bpp.c...
+..\..\UCGUI\GUI\Core\GUI__DrawBitmap16bpp.c(56): warning:  #223-D: function "LCD_GetpfIndex2ColorEx" declared implicitly
+        pfIndex2ColorCompare = LCD_GetpfIndex2ColorEx(GUI_Context.SelLayer);
+..\..\UCGUI\GUI\Core\GUI__DrawBitmap16bpp.c(56): error:  #513: a value of type "int" cannot be assigned to an entity of type "tLCDDEV_Index2Color *"
+        pfIndex2ColorCompare = LCD_GetpfIndex2ColorEx(GUI_Context.SelLayer);
+..\..\UCGUI\GUI\Core\GUI__DrawBitmap16bpp.c: 1 warning, 1 error
+compiling GUI_DrawBitmap_555.c...
+..\..\UCGUI\GUI\Core\GUI_DrawBitmap_555.c(33): warning:  #223-D: function "GUI__DrawBitmap16bpp" declared implicitly
+    GUI__DrawBitmap16bpp(x0, y0, xsize, ysize, pPixel, pLogPal, xMag, yMag, GUI_BitmapMethods555.pfIndex2Color);
+..\..\UCGUI\GUI\Core\GUI_DrawBitmap_555.c(33): error:  #20: identifier "GUI_BitmapMethods555" is undefined
+    GUI__DrawBitmap16bpp(x0, y0, xsize, ysize, pPixel, pLogPal, xMag, yMag, GUI_BitmapMethods555.pfIndex2Color);
+..\..\UCGUI\GUI\Core\GUI_DrawBitmap_555.c(41): warning:  #223-D: function "GUI__DrawBitmap16bpp" declared implicitly
+    GUI__DrawBitmap16bpp(x0, y0, xsize, ysize, pPixel, pLogPal, xMag, yMag, GUI_BitmapMethodsM555.pfIndex2Color);
+..\..\UCGUI\GUI\Core\GUI_DrawBitmap_555.c(41): error:  #20: identifier "GUI_BitmapMethodsM555" is undefined
+    GUI__DrawBitmap16bpp(x0, y0, xsize, ysize, pPixel, pLogPal, xMag, yMag, GUI_BitmapMethodsM555.pfIndex2Color);
+..\..\UCGUI\GUI\Core\GUI_DrawBitmap_555.c: 2 warnings, 2 errors
+compiling GUI_DispStringInRectWrap.c...
+..\..\UCGUI\GUI\Core\GUI_DispStringInRectWrap.c(67): warning:  #223-D: function "GUI_SetClipRect" declared implicitly
+    pOldClipRect = GUI_SetClipRect(pRect);
+..\..\UCGUI\GUI\Core\GUI_DispStringInRectWrap.c(67): error:  #513: a value of type "int" cannot be assigned to an entity of type "const GUI_RECT *"
+    pOldClipRect = GUI_SetClipRect(pRect);
+..\..\UCGUI\GUI\Core\GUI_DispStringInRectWrap.c: 1 warning, 1 error
+compiling GUI_DrawBitmap_888.c...
+..\..\UCGUI\GUI\Core\GUI_DrawBitmap_888.c(51): warning:  #223-D: function "LCD_GetpfIndex2ColorEx" declared implicitly
+        if (LCD_GetpfIndex2ColorEx(GUI_Context.SelLayer) == pfIndex2Color) {
+..\..\UCGUI\GUI\Core\GUI_DrawBitmap_888.c(51): error:  #42: operand types are incompatible ("int" and "tLCDDEV_Index2Color *")
+        if (LCD_GetpfIndex2ColorEx(GUI_Context.SelLayer) == pfIndex2Color) {
+..\..\UCGUI\GUI\Core\GUI_DrawBitmap_888.c(145): error:  #20: identifier "GUI_BitmapMethods888" is undefined
+    _DrawBitmap(x0, y0, xsize, ysize, pPixel, pLogPal, xMag, yMag, GUI_BitmapMethods888.pfIndex2Color);
+..\..\UCGUI\GUI\Core\GUI_DrawBitmap_888.c(153): error:  #20: identifier "GUI_BitmapMethodsM888" is undefined
+    _DrawBitmap(x0, y0, xsize, ysize, pPixel, pLogPal, xMag, yMag, GUI_BitmapMethodsM888.pfIndex2Color);
+..\..\UCGUI\GUI\Core\GUI_DrawBitmap_888.c(168): error:  #20: identifier "LCD_Index2Color_888" is undefined
+    LCD_Index2Color_888
+..\..\UCGUI\GUI\Core\GUI_DrawBitmap_888.c(177): error:  #20: identifier "LCD_Index2Color_M888" is undefined
+    LCD_Index2Color_M888
+..\..\UCGUI\GUI\Core\GUI_DrawBitmap_888.c: 1 warning, 5 errors
+compiling GUI_GetOrg.c...
+..\..\UCGUI\GUI\Core\GUI_GetOrg.c(33): error:  #20: identifier "GUI_OrgX" is undefined
+    *px = GUI_OrgX;
+..\..\UCGUI\GUI\Core\GUI_GetOrg.c(34): error:  #20: identifier "GUI_OrgY" is undefined
+    *py = GUI_OrgY;
+..\..\UCGUI\GUI\Core\GUI_GetOrg.c: 0 warnings, 2 errors
+compiling GUI_GIF.c...
+..\..\UCGUI\GUI\Core\GUI_GIF.c(366): error:  #20: identifier "GUI_GIF_IMAGE_INFO" is undefined
+  static int _ReadExtension(int * pTransIndex, GUI_GIF_IMAGE_INFO * pInfo, U8 * pDisposal) {
+..\..\UCGUI\GUI\Core\GUI_GIF.c(676): error:  #20: identifier "GUI_GIF_INFO" is undefined
+  static int _GetGIFInfo(const 
+..\..\UCGUI\GUI\Core\GUI_GIF.c(717): error:  #20: identifier "GUI_GIF_IMAGE_INFO" is undefined
+  static int _GetImageInfo(const 
+..\..\UCGUI\GUI\Core\GUI_GIF.c(821): error:  #20: identifier "GUI_GIF_IMAGE_INFO" is undefined
+  static void _ClearUnusedPixels(int x0, int y0, IMAGE_DESCRIPTOR * pDescriptor, GUI_GIF_IMAGE_INFO * pInfo) {
+..\..\UCGUI\GUI\Core\GUI_GIF.c(870): error:  #20: identifier "GUI_GIF_IMAGE_INFO" is undefined
+    GUI_GIF_IMAGE_INFO Info = {0};
+..\..\UCGUI\GUI\Core\GUI_GIF.c(1017): error:  #20: identifier "GUI_GIF_INFO" is undefined
+  int GUI_GIF_GetInfo(const void * pGIF, 
+..\..\UCGUI\GUI\Core\GUI_GIF.c(1030): error:  #20: identifier "GUI_GIF_IMAGE_INFO" is undefined
+  int GUI_GIF_GetImageInfo(const void * pGIF, 
+..\..\UCGUI\GUI\Core\GUI_GIF.c: 0 warnings, 7 errors
+compiling LCD_ReadRect.c...
+..\..\UCGUI\GUI\Core\LCD_ReadRect.c(37): error:  #136: struct "tLCDDEV_APIList_struct" has no field "pfGetDevFunc"
+    pfReadRect = (void (*)(int, int, int, int, 
+CD_PIXELINDEX *))pAPI->pfGetDevFunc(LCD_DEVFUNC_READRECT);
+..\..\UCGUI\GUI\Core\LCD_ReadRect.c(37): error:  #20: identifier "LCD_DEVFUNC_READRECT" is undefined
+    pfReadRect = (void (*)(int, int, int, int, 
+CD_PIXELINDEX *))pAPI->pfGetDevFunc(LCD_DEVFUNC_READRECT);
+..\..\UCGUI\GUI\Core\LCD_ReadRect.c: 0 warnings, 2 errors
+compiling GUIDEV_1.c...
+..\..\UCGUI\GUI\MemDev\GUIDEV_1.c(595): error:  #146: too many initializer values
+    BITSPERPIXEL        /* BitsPerPixel    */
+..\..\UCGUI\GUI\MemDev\GUIDEV_1.c: 0 warnings, 1 error
+compiling GUIDEV_8.c...
+..\..\UCGUI\GUI\MemDev\GUIDEV_8.c(664): error:  #146: too many initializer values
+    BITSPERPIXEL        /* BitsPerPixel    */
+..\..\UCGUI\GUI\MemDev\GUIDEV_8.c: 0 warnings, 1 error
+compiling GUIDEV_16.c...
+..\..\UCGUI\GUI\MemDev\GUIDEV_8.c(664): error:  #146: too many initializer values
+    BITSPERPIXEL        /* BitsPerPixel    */
+..\..\UCGUI\GUI\MemDev\GUIDEV_16.c: 0 warnings, 1 error
+compiling GUIDEV_Measure.c...
+..\..\UCGUI\GUI\MemDev\GUIDEV_Measure.c(286): error:  #144: a value of type "void (*)(const GUI_POINT *, int, int, int)" cannot be used to initialize an entity of type "const tLCDDEV_APIList *"
+    _FillPolygonAA,
+..\..\UCGUI\GUI\MemDev\GUIDEV_Measure.c(288): error:  #146: too many initializer values
+    NULL  
+..\..\UCGUI\GUI\MemDev\GUIDEV_Measure.c: 0 warnings, 2 errors
+compiling BUTTON_SetFocusColor.c...
+..\..\UCGUI\GUI\Widget\BUTTON_SetFocusColor.c(40): error:  #136: struct "<unnamed>" has no field "FocusColor"
+      if (Color != pObj->Props.FocusColor) {
+..\..\UCGUI\GUI\Widget\BUTTON_SetFocusColor.c(41): error:  #136: struct "<unnamed>" has no field "FocusColor"
+        OldColor = pObj->Props.FocusColor;
+..\..\UCGUI\GUI\Widget\BUTTON_SetFocusColor.c(42): error:  #136: struct "<unnamed>" has no field "FocusColor"
+        pObj->Props.FocusColor = Color;
+..\..\UCGUI\GUI\Widget\BUTTON_SetFocusColor.c: 0 warnings, 3 errors
+compiling CHECKBOX_SetFocusColor.c...
+..\..\UCGUI\GUI\Widget\CHECKBOX_SetFocusColor.c(40): error:  #136: struct "<unnamed>" has no field "FocusColor"
+      if (Color != pObj->Props.FocusColor) {
+..\..\UCGUI\GUI\Widget\CHECKBOX_SetFocusColor.c(41): error:  #136: struct "<unnamed>" has no field "FocusColor"
+        OldColor = pObj->Props.FocusColor;
+..\..\UCGUI\GUI\Widget\CHECKBOX_SetFocusColor.c(42): error:  #136: struct "<unnamed>" has no field "FocusColor"
+        pObj->Props.FocusColor = Color;
+..\..\UCGUI\GUI\Widget\CHECKBOX_SetFocusColor.c: 0 warnings, 3 errors
+compiling DROPDOWN_Default.c...
+..\..\UCGUI\GUI\Widget\DROPDOWN_Default.c(35): error:  #20: identifier "DROPDOWN__DefaultProps" is undefined
+    DROPDOWN__DefaultProps.pFont = pFont;
+..\..\UCGUI\GUI\Widget\DROPDOWN_Default.c(43): error:  #20: identifier "DROPDOWN__DefaultProps" is undefined
+    return DROPDOWN__DefaultProps.pFont;
+..\..\UCGUI\GUI\Widget\DROPDOWN_Default.c(52): error:  #20: identifier "DROPDOWN__DefaultProps" is undefined
+    if (Index < 
+UI_COUNTOF(DROPDOWN__DefaultProps.aColor)) {
+..\..\UCGUI\GUI\Widget\DROPDOWN_Default.c(65): error:  #20: identifier "DROPDOWN__DefaultProps" is undefined
+    if (Index < 
+UI_COUNTOF(DROPDOWN__DefaultProps.aScrollbarColor)) {
+..\..\UCGUI\GUI\Widget\DROPDOWN_Default.c: 0 warnings, 4 errors
+compiling DROPDOWN_SetColor.c...
+..\..\UCGUI\GUI\Widget\DROPDOWN_SetColor.c(38): error:  #136: struct "<unnamed>" has no field "aColor"
+      if (Index < 
+UI_COUNTOF(pObj->Props.aColor)) {
+..\..\UCGUI\GUI\Widget\DROPDOWN_SetColor.c(38): error:  #136: struct "<unnamed>" has no field "aColor"
+      if (Index < 
+UI_COUNTOF(pObj->Props.aColor)) {
+..\..\UCGUI\GUI\Widget\DROPDOWN_SetColor.c(41): error:  #136: struct "<unnamed>" has no field "aColor"
+        if (pObj->Props.aColor[Index] != Color) {
+..\..\UCGUI\GUI\Widget\DROPDOWN_SetColor.c(42): error:  #136: struct "<unnamed>" has no field "aColor"
+          pObj->Props.aColor[Index] = Color;
+..\..\UCGUI\GUI\Widget\DROPDOWN_SetColor.c: 0 warnings, 4 errors
+compiling DROPDOWN_SetScrollbarColor.c...
+..\..\UCGUI\GUI\Widget\DROPDOWN_SetScrollbarColor.c(40): error:  #136: struct "<unnamed>" has no field "aScrollbarColor"
+      if (Index < 
+UI_COUNTOF(pObj->Props.aScrollbarColor)) {
+..\..\UCGUI\GUI\Widget\DROPDOWN_SetScrollbarColor.c(40): error:  #136: struct "<unnamed>" has no field "aScrollbarColor"
+      if (Index < 
+UI_COUNTOF(pObj->Props.aScrollbarColor)) {
+..\..\UCGUI\GUI\Widget\DROPDOWN_SetScrollbarColor.c(41): error:  #136: struct "<unnamed>" has no field "aScrollbarColor"
+        if (pObj->Props.aScrollbarColor[Index] != Color) {
+..\..\UCGUI\GUI\Widget\DROPDOWN_SetScrollbarColor.c(42): error:  #136: struct "<unnamed>" has no field "aScrollbarColor"
+          pObj->Props.aScrollbarColor[Index] = Color;
+..\..\UCGUI\GUI\Widget\DROPDOWN_SetScrollbarColor.c(44): warning:  #223-D: function "LISTBOX_SetScrollbarColor" declared implicitly
+            LISTBOX_SetScrollbarColor(pObj->hListWin, Color, Index);
+..\..\UCGUI\GUI\Widget\DROPDOWN_SetScrollbarColor.c: 1 warning, 4 errors
+compiling EDITUlong.c...
+..\..\UCGUI\GUI\Widget\EDITUlong.c(37): error:  #20: identifier "EDIT_Obj" is undefined
+  static void _IncrementCursor(EDIT_Obj* pObj) {
+..\..\UCGUI\GUI\Widget\EDITUlong.c(38): warning:  #223-D: function "EDIT__SetCursorPos" declared implicitly
+    EDIT__SetCursorPos(pObj, pObj->CursorPos + 1);
+..\..\UCGUI\GUI\Widget\EDITUlong.c(56): error:  #20: identifier "EDIT_Handle" is undefined
+  static void _UpdateBuffer(EDIT_Handle hObj) {
+..\..\UCGUI\GUI\Widget\EDITUlong.c(61): error:  #20: identifier "EDIT_Obj" is undefined
+    EDIT_Obj * pObj;
+..\..\UCGUI\GUI\Widget\EDITUlong.c(61): error:  #20: identifier "pObj" is undefined
+    EDIT_Obj * pObj;
+..\..\UCGUI\GUI\Widget\EDITUlong.c(62): warning:  #223-D: function "EDIT_H2P" declared implicitly
+    pObj = EDIT_H2P(hObj); /* The GUI needs not to be locked here. This function is called only from EDIT_AddKey which has already locked the GUI */
+..\..\UCGUI\GUI\Widget\EDITUlong.c(86): error:  #20: identifier "EDIT_Obj" is undefined
+  static void _EditULong(int Digit, EDIT_Obj* pObj, EDIT_Handle hObj) {
+..\..\UCGUI\GUI\Widget\EDITUlong.c(86): error:  #20: identifier "EDIT_Handle" is undefined
+  static void _EditULong(int Digit, EDIT_Obj* pObj, EDIT_Handle hObj) {
+..\..\UCGUI\GUI\Widget\EDITUlong.c(102): error:  #20: identifier "GUI_Pow10" is undefined
+          OldResult += GUI_Pow10[Pos] * Value;
+..\..\UCGUI\GUI\Widget\EDITUlong.c(111): error:  #20: identifier "GUI_Pow10" is undefined
+          NewResult = Result + GUI_Pow10[Pos];
+..\..\UCGUI\GUI\Widget\EDITUlong.c(134): error:  #20: identifier "GUI_Pow10" is undefined
+          Result += GUI_Pow10[Pos++] * Value;
+..\..\UCGUI\GUI\Widget\EDITUlong.c(143): warning:  #223-D: function "EDIT__SetValueUnsigned" declared implicitly
+    EDIT__SetValueUnsigned(hObj, Result);
+..\..\UCGUI\GUI\Widget\EDITUlong.c(150): error:  #20: identifier "EDIT_Obj" is undefined
+  static void _AddPosition(EDIT_Obj* pObj, EDIT_Handle hObj, int Sign) {
+..\..\UCGUI\GUI\Widget\EDITUlong.c(150): error:  #20: identifier "EDIT_Handle" is undefined
+  static void _AddPosition(EDIT_Obj* pObj, EDIT_Handle hObj, int Sign) {
+..\..\UCGUI\GUI\Widget\EDITUlong.c(176): warning:  #223-D: function "EDIT__SetValueUnsigned" declared implicitly
+    EDIT__SetValueUnsigned(hObj, NewValue);
+..\..\UCGUI\GUI\Widget\EDITUlong.c(183): error:  #20: identifier "EDIT_Handle" is undefined
+  static void _AddKey(EDIT_Handle hObj, int Key) {
+..\..\UCGUI\GUI\Widget\EDITUlong.c(184): error:  #20: identifier "EDIT_Obj" is undefined
+    EDIT_Obj * pObj;
+..\..\UCGUI\GUI\Widget\EDITUlong.c(184): error:  #20: identifier "pObj" is undefined
+    EDIT_Obj * pObj;
+..\..\UCGUI\GUI\Widget\EDITUlong.c(185): warning:  #223-D: function "EDIT_H2P" declared implicitly
+    pObj = EDIT_H2P(hObj); /* The GUI needs not to be locked here. This function is called only from EDIT_AddKey which has already locked the GUI */
+..\..\UCGUI\GUI\Widget\EDITUlong.c(198): warning:  #223-D: function "EDIT__SetCursorPos" declared implicitly
+        EDIT__SetCursorPos(pObj, pObj->CursorPos - 1);
+..\..\UCGUI\GUI\Widget\EDITUlong.c(224): error:  #20: identifier "EDIT_Handle" is undefined
+  void EDIT_SetUlongMode(EDIT_Handle hEdit, U32 Value, U32 Min, U32 Max) {
+..\..\UCGUI\GUI\Widget\EDITUlong.c(225): error:  #20: identifier "EDIT_Obj" is undefined
+    EDIT_Obj* pObj;
+..\..\UCGUI\GUI\Widget\EDITUlong.c(225): error:  #20: identifier "pObj" is undefined
+    EDIT_Obj* pObj;
+..\..\UCGUI\GUI\Widget\EDITUlong.c(226): warning:  #223-D: function "WM_LOCK" declared implicitly
+    WM_LOCK();
+..\..\UCGUI\GUI\Widget\EDITUlong.c(228): warning:  #223-D: function "EDIT_H2P" declared implicitly
+      pObj = EDIT_H2P(hEdit);
+..\..\UCGUI\GUI\Widget\EDITUlong.c(240): error:  #20: identifier "GUI_EDIT_MODE_OVERWRITE" is undefined
+      pObj->EditMode      = GUI_EDIT_MODE_OVERWRITE;
+..\..\UCGUI\GUI\Widget\EDITUlong.c(242): warning:  #223-D: function "WM_Invalidate" declared implicitly
+      WM_Invalidate(hEdit);
+..\..\UCGUI\GUI\Widget\EDITUlong.c(244): warning:  #223-D: function "WM_UNLOCK" declared implicitly
+    WM_UNLOCK();
+..\..\UCGUI\GUI\Widget\EDITUlong.c: 10 warnings, 18 errors
+compiling GRAPH_SCALE.c...
+..\..\UCGUI\GUI\Widget\GRAPH_SCALE.c(53): error:  #20: identifier "GRAPH_SCALE_FONT_DEFAULT" is undefined
+    GRAPH_SCALE_FONT_DEFAULT,
+..\..\UCGUI\GUI\Widget\GRAPH_SCALE.c: 0 warnings, 1 error
+compiling HEADER_GetSel.c...
+..\..\UCGUI\GUI\Widget\HEADER_GetSel.c(41): error:  #136: struct "<unnamed>" has no field "Sel"
+      Sel = pObj->Sel;
+..\..\UCGUI\GUI\Widget\HEADER_GetSel.c: 0 warnings, 1 error
+compiling HEADER_SetDragLimit.c...
+..\..\UCGUI\GUI\Widget\HEADER_SetDragLimit.c(41): error:  #136: struct "<unnamed>" has no field "DragLimit"
+        pObj->DragLimit = 1;
+..\..\UCGUI\GUI\Widget\HEADER_SetDragLimit.c(43): error:  #136: struct "<unnamed>" has no field "DragLimit"
+        pObj->DragLimit = 0;
+..\..\UCGUI\GUI\Widget\HEADER_SetDragLimit.c: 0 warnings, 2 errors
+compiling LISTBOX_SetScrollbarColor.c...
+..\..\UCGUI\GUI\Widget\LISTBOX_SetScrollbarColor.c(39): error:  #136: struct "<unnamed>" has no field "aScrollbarColor"
+      if (Index < 
+UI_COUNTOF(pObj->Props.aScrollbarColor)) {
+..\..\UCGUI\GUI\Widget\LISTBOX_SetScrollbarColor.c(39): error:  #136: struct "<unnamed>" has no field "aScrollbarColor"
+      if (Index < 
+UI_COUNTOF(pObj->Props.aScrollbarColor)) {
+..\..\UCGUI\GUI\Widget\LISTBOX_SetScrollbarColor.c(40): error:  #136: struct "<unnamed>" has no field "aScrollbarColor"
+        if (pObj->Props.aScrollbarColor[Index] != Color) {
+..\..\UCGUI\GUI\Widget\LISTBOX_SetScrollbarColor.c(41): error:  #136: struct "<unnamed>" has no field "aScrollbarColor"
+          pObj->Props.aScrollbarColor[Index] = Color;
+..\..\UCGUI\GUI\Widget\LISTBOX_SetScrollbarColor.c(42): warning:  #223-D: function "LISTBOX__SetScrollbarColor" declared implicitly
+          LISTBOX__SetScrollbarColor(hObj, pObj);
+..\..\UCGUI\GUI\Widget\LISTBOX_SetScrollbarColor.c: 1 warning, 4 errors
+compiling LISTBOX_GetTextAlign.c...
+..\..\UCGUI\GUI\Widget\LISTBOX_GetTextAlign.c(41): error:  #136: struct "<unnamed>" has no field "Align"
+      Align = pObj->Props.Align;
+..\..\UCGUI\GUI\Widget\LISTBOX_GetTextAlign.c: 0 warnings, 1 error
+compiling LISTBOX_SetTextAlign.c...
+..\..\UCGUI\GUI\Widget\LISTBOX_SetTextAlign.c(40): error:  #136: struct "<unnamed>" has no field "Align"
+      pObj->Props.Align = Align;
+..\..\UCGUI\GUI\Widget\LISTBOX_SetTextAlign.c: 0 warnings, 1 error
+compiling LISTVIEW_DisableRow.c...
+..\..\UCGUI\GUI\Widget\LISTVIEW_DisableRow.c(41): warning:  #223-D: function "LISTVIEW__GetNumRows" declared implicitly
+      if (Row < LISTVIEW__GetNumRows(pObj)) {
+..\..\UCGUI\GUI\Widget\LISTVIEW_DisableRow.c(42): error:  #20: identifier "LISTVIEW_ROW" is undefined
+        LISTVIEW_ROW* pRow;
+..\..\UCGUI\GUI\Widget\LISTVIEW_DisableRow.c(42): error:  #20: identifier "pRow" is undefined
+        LISTVIEW_ROW* pRow;
+..\..\UCGUI\GUI\Widget\LISTVIEW_DisableRow.c(43): error:  #29: expected an expression
+        pRow = (LISTVIEW_ROW*) GUI_ARRAY_GetpItem(&pObj->RowArray, Row);
+..\..\UCGUI\GUI\Widget\LISTVIEW_DisableRow.c(43): error:  #65: expected a ";"
+        pRow = (LISTVIEW_ROW*) GUI_ARRAY_GetpItem(&pObj->RowArray, Row);
+..\..\UCGUI\GUI\Widget\LISTVIEW_DisableRow.c: 1 warning, 4 errors
+compiling LISTVIEW_GetItemText.c...
+..\..\UCGUI\GUI\Widget\LISTVIEW_GetItemText.c(42): warning:  #223-D: function "LISTVIEW__GetNumColumns" declared implicitly
+      if ((Column < LISTVIEW__GetNumColumns(pObj)) && (Row < LISTVIEW__GetNumRows(pObj))) {
+..\..\UCGUI\GUI\Widget\LISTVIEW_GetItemText.c(42): warning:  #223-D: function "LISTVIEW__GetNumRows" declared implicitly
+      if ((Column < LISTVIEW__GetNumColumns(pObj)) && (Row < LISTVIEW__GetNumRows(pObj))) {
+..\..\UCGUI\GUI\Widget\LISTVIEW_GetItemText.c(43): error:  #20: identifier "LISTVIEW_ROW" is undefined
+        LISTVIEW_ROW*  pRow;
+..\..\UCGUI\GUI\Widget\LISTVIEW_GetItemText.c(43): error:  #20: identifier "pRow" is undefined
+        LISTVIEW_ROW*  pRow;
+..\..\UCGUI\GUI\Widget\LISTVIEW_GetItemText.c(44): error:  #20: identifier "LISTVIEW_CELL" is undefined
+        LISTVIEW_CELL* pCell;
+..\..\UCGUI\GUI\Widget\LISTVIEW_GetItemText.c(44): error:  #20: identifier "pCell" is undefined
+        LISTVIEW_CELL* pCell;
+..\..\UCGUI\GUI\Widget\LISTVIEW_GetItemText.c(45): error:  #29: expected an expression
+        pRow  = (LISTVIEW_ROW*)  GUI_ARRAY_GetpItem(&pObj->RowArray,  Row);
+..\..\UCGUI\GUI\Widget\LISTVIEW_GetItemText.c(45): error:  #65: expected a ";"
+        pRow  = (LISTVIEW_ROW*)  GUI_ARRAY_GetpItem(&pObj->RowArray,  Row);
+..\..\UCGUI\GUI\Widget\LISTVIEW_GetItemText.c(46): error:  #29: expected an expression
+        pCell = (LISTVIEW_CELL*) GUI_ARRAY_GetpItem(&pRow->CellArray, Column);
+..\..\UCGUI\GUI\Widget\LISTVIEW_GetItemText.c(46): error:  #65: expected a ";"
+        pCell = (LISTVIEW_CELL*) GUI_ARRAY_GetpItem(&pRow->CellArray, Column);
+..\..\UCGUI\GUI\Widget\LISTVIEW_GetItemText.c: 2 warnings, 8 errors
+compiling LISTVIEW_InsertRow.c...
+..\..\UCGUI\GUI\Widget\LISTVIEW_InsertRow.c(46): error:  #20: identifier "LISTVIEW_ROW" is undefined
+        if (GUI_ARRAY_InsertItem(&pObj->RowArray, Index, sizeof(LISTVIEW_ROW))) {
+..\..\UCGUI\GUI\Widget\LISTVIEW_InsertRow.c(47): error:  #20: identifier "pRow" is undefined
+          LISTVIEW_ROW* pRow;
+..\..\UCGUI\GUI\Widget\LISTVIEW_InsertRow.c(48): error:  #268: declaration may not appear after executable statement in block
+          int i, NumColumns, NumBytes;
+..\..\UCGUI\GUI\Widget\LISTVIEW_InsertRow.c(49): error:  #268: declaration may not appear after executable statement in block
+          const char* s;
+..\..\UCGUI\GUI\Widget\LISTVIEW_InsertRow.c(51): warning:  #223-D: function "LISTVIEW__GetNumColumns" declared implicitly
+          NumColumns = LISTVIEW__GetNumColumns(pObj);
+..\..\UCGUI\GUI\Widget\LISTVIEW_InsertRow.c(52): error:  #29: expected an expression
+          pRow       = (LISTVIEW_ROW*) GUI_ARRAY_GetpItem(&pObj->RowArray, Index);
+..\..\UCGUI\GUI\Widget\LISTVIEW_InsertRow.c(52): error:  #65: expected a ";"
+          pRow       = (LISTVIEW_ROW*) GUI_ARRAY_GetpItem(&pObj->RowArray, Index);
+..\..\UCGUI\GUI\Widget\LISTVIEW_InsertRow.c(56): error:  #20: identifier "LISTVIEW_CELL" is undefined
+            LISTVIEW_CELL* pCell;
+..\..\UCGUI\GUI\Widget\LISTVIEW_InsertRow.c(56): error:  #20: identifier "pCell" is undefined
+            LISTVIEW_CELL* pCell;
+..\..\UCGUI\GUI\Widget\LISTVIEW_InsertRow.c(66): error:  #29: expected an expression
+            pRow  = (LISTVIEW_ROW*) GUI_ARRAY_GetpItem(&pObj->RowArray, Index); /* Restore after allocating memory */
+..\..\UCGUI\GUI\Widget\LISTVIEW_InsertRow.c(66): error:  #65: expected a ";"
+            pRow  = (LISTVIEW_ROW*) GUI_ARRAY_GetpItem(&pObj->RowArray, Index); /* Restore after allocating memory */
+..\..\UCGUI\GUI\Widget\LISTVIEW_InsertRow.c(67): error:  #29: expected an expression
+            pCell = (LISTVIEW_CELL*) GUI_ARRAY_GetpItem(&pRow->CellArray, i);
+..\..\UCGUI\GUI\Widget\LISTVIEW_InsertRow.c(67): error:  #65: expected a ";"
+            pCell = (LISTVIEW_CELL*) GUI_ARRAY_GetpItem(&pRow->CellArray, i);
+..\..\UCGUI\GUI\Widget\LISTVIEW_InsertRow.c(73): error:  #136: struct "<unnamed>" has no field "SortIndex"
+          if (pObj->SortIndex < 0) {
+..\..\UCGUI\GUI\Widget\LISTVIEW_InsertRow.c(74): warning:  #223-D: function "LISTVIEW__GetSel" declared implicitly
+            if ((int)Index < LISTVIEW__GetSel(pObj)) {
+..\..\UCGUI\GUI\Widget\LISTVIEW_InsertRow.c(78): error:  #136: struct "<unnamed>" has no field "IsPresorted"
+          pObj->IsPresorted = 0;
+..\..\UCGUI\GUI\Widget\LISTVIEW_InsertRow.c(82): error:  #136: struct "<unnamed>" has no field "hSort"
+            if (pObj->hSort && (pObj->SortIndex >= 0)) {
+..\..\UCGUI\GUI\Widget\LISTVIEW_InsertRow.c(82): error:  #136: struct "<unnamed>" has no field "SortIndex"
+            if (pObj->hSort && (pObj->SortIndex >= 0)) {
+..\..\UCGUI\GUI\Widget\LISTVIEW_InsertRow.c(85): warning:  #223-D: function "LISTVIEW__InvalidateRowAndBelow" declared implicitly
+              LISTVIEW__InvalidateRowAndBelow(hObj, pObj, Index);
+..\..\UCGUI\GUI\Widget\LISTVIEW_InsertRow.c(93): error:  #513: a value of type "void" cannot be assigned to an entity of type "int"
+        r = LISTVIEW_AddRow(hObj, ppText);
+..\..\UCGUI\GUI\Widget\LISTVIEW_InsertRow.c: 3 warnings, 17 errors
+compiling LISTVIEW_SetAutoScroll.c...
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetAutoScroll.c(47): error:  #136: struct "<unnamed>" has no field "Flags"
+      Flags = pObj->Flags & (~LISTVIEW_SF_AUTOSCROLLBAR_H);
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetAutoScroll.c(47): error:  #20: identifier "LISTVIEW_SF_AUTOSCROLLBAR_H" is undefined
+      Flags = pObj->Flags & (~LISTVIEW_SF_AUTOSCROLLBAR_H);
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetAutoScroll.c(51): error:  #136: struct "<unnamed>" has no field "Flags"
+      if (pObj->Flags != Flags) {
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetAutoScroll.c(52): error:  #136: struct "<unnamed>" has no field "Flags"
+        pObj->Flags = Flags;
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetAutoScroll.c(69): error:  #136: struct "<unnamed>" has no field "Flags"
+      Flags = pObj->Flags & (~LISTVIEW_SF_AUTOSCROLLBAR_V);
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetAutoScroll.c(69): error:  #20: identifier "LISTVIEW_SF_AUTOSCROLLBAR_V" is undefined
+      Flags = pObj->Flags & (~LISTVIEW_SF_AUTOSCROLLBAR_V);
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetAutoScroll.c(73): error:  #136: struct "<unnamed>" has no field "Flags"
+      if (pObj->Flags != Flags) {
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetAutoScroll.c(74): error:  #136: struct "<unnamed>" has no field "Flags"
+        pObj->Flags = Flags;
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetAutoScroll.c: 0 warnings, 8 errors
+compiling LISTVIEW_SetSort.c...
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetSort.c(33): error:  #20: identifier "LISTVIEW_SORT" is undefined
+    LISTVIEW_SORT * pSort;
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetSort.c(34): error:  #20: identifier "SORT_TYPE" is undefined
+    SORT_TYPE     * paSortArray;
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetSort.c(54): error:  #20: identifier "LISTVIEW_SORT" is undefined
+    LISTVIEW_SORT * pSort;
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetSort.c(54): error:  #20: identifier "pSort" is undefined
+    LISTVIEW_SORT * pSort;
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetSort.c(55): error:  #29: expected an expression
+    pSort = (LISTVIEW_SORT *)GUI_ALLOC_h2p(hObj);
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetSort.c(55): error:  #65: expected a ";"
+    pSort = (LISTVIEW_SORT *)GUI_ALLOC_h2p(hObj);
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetSort.c(66): warning:  #223-D: function "LISTVIEW__GetSel" declared implicitly
+    if ((LISTVIEW__GetSel(pObj) >= 0) && (pObj->hSort)) {
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetSort.c(66): error:  #136: struct "<unnamed>" has no field "hSort"
+    if ((LISTVIEW__GetSel(pObj) >= 0) && (pObj->hSort)) {
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetSort.c(67): error:  #20: identifier "LISTVIEW_SORT" is undefined
+      LISTVIEW_SORT * pSort;
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetSort.c(67): error:  #20: identifier "pSort" is undefined
+      LISTVIEW_SORT * pSort;
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetSort.c(68): error:  #29: expected an expression
+      pSort = (LISTVIEW_SORT *)GUI_ALLOC_h2p(pObj->hSort);
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetSort.c(68): error:  #65: expected a ";"
+      pSort = (LISTVIEW_SORT *)GUI_ALLOC_h2p(pObj->hSort);
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetSort.c(72): error:  #20: identifier "SORT_TYPE" is undefined
+        SORT_TYPE * paSortArray;
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetSort.c(72): error:  #20: identifier "paSortArray" is undefined
+        SORT_TYPE * paSortArray;
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetSort.c(73): error:  #29: expected an expression
+        paSortArray = (SORT_TYPE *)GUI_ALLOC_h2p(pSort->hSortArray);
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetSort.c(73): error:  #65: expected a ";"
+        paSortArray = (SORT_TYPE *)GUI_ALLOC_h2p(pSort->hSortArray);
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetSort.c(88): error:  #136: struct "<unnamed>" has no field "hSort"
+    if (pObj->hSort) {
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetSort.c(89): error:  #20: identifier "LISTVIEW_SORT" is undefined
+      LISTVIEW_SORT * pSort;
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetSort.c(89): error:  #20: identifier "pSort" is undefined
+      LISTVIEW_SORT * pSort;
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetSort.c(90): error:  #20: identifier "SORT_TYPE" is undefined
+      SORT_TYPE * paSortArray;
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetSort.c(90): error:  #20: identifier "paSortArray" is undefined
+      SORT_TYPE * paSortArray;
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetSort.c(91): error:  #29: expected an expression
+      pSort = (LISTVIEW_SORT *)GUI_ALLOC_h2p(pObj->hSort);
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetSort.c(91): error:  #65: expected a ";"
+      pSort = (LISTVIEW_SORT *)GUI_ALLOC_h2p(pObj->hSort);
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetSort.c(93): error:  #29: expected an expression
+      paSortArray = (SORT_TYPE *)GUI_ALLOC_h2p(pSort->hSortArray);
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetSort.c(93): error:  #65: expected a ";"
+      paSortArray = (SORT_TYPE *)GUI_ALLOC_h2p(pSort->hSortArray);
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetSort.c(96): warning:  #223-D: function "LISTVIEW__SetSel" declared implicitly
+          LISTVIEW__SetSel(hObj, pObj, i);
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetSort.c(101): warning:  #223-D: function "LISTVIEW__SetSel" declared implicitly
+      LISTVIEW__SetSel(hObj, pObj, Sel);
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetSort.c(111): error:  #20: identifier "LISTVIEW_ROW" is undefined
+    LISTVIEW_ROW  * pRow0, * pRow1;
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetSort.c(111): error:  #20: identifier "pRow0" is undefined
+    LISTVIEW_ROW  * pRow0, * pRow1;
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetSort.c(111): error:  #20: identifier "pRow1" is undefined
+    LISTVIEW_ROW  * pRow0, * pRow1;
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetSort.c(112): error:  #20: identifier "LISTVIEW_COLUMN" is undefined
+    LISTVIEW_COLUMN * pColumn;
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetSort.c(112): error:  #20: identifier "pColumn" is undefined
+    LISTVIEW_COLUMN * pColumn;
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetSort.c(113): error:  #268: declaration may not appear after executable statement in block
+    SORT_TYPE i0, i1;
+..\..\UCGUI\GUI\Widget\LISTVIEW_SetSort.c: 3 warnings, 30 errors
+compiling RADIO_SetFocusColor.c...
+..\..\UCGUI\GUI\Widget\RADIO_SetFocusColor.c(40): error:  #136: struct "<unnamed>" has no field "Props"
+      if (Color != pObj->Props.FocusColor) {
+..\..\UCGUI\GUI\Widget\RADIO_SetFocusColor.c(41): error:  #136: struct "<unnamed>" has no field "Props"
+        OldColor = pObj->Props.FocusColor;
+..\..\UCGUI\GUI\Widget\RADIO_SetFocusColor.c(42): error:  #136: struct "<unnamed>" has no field "Props"
+        pObj->Props.FocusColor = Color;
+..\..\UCGUI\GUI\Widget\RADIO_SetFocusColor.c: 0 warnings, 3 errors
+compiling LISTVIEW_UserData.c...
+..\..\UCGUI\GUI\Widget\LISTVIEW_UserData.c(39): warning:  #223-D: function "LISTVIEW__GetNumRows" declared implicitly
+      if (Row < LISTVIEW__GetNumRows(pObj)) {
+..\..\UCGUI\GUI\Widget\LISTVIEW_UserData.c(40): error:  #20: identifier "LISTVIEW_ROW" is undefined
+        LISTVIEW_ROW * pRow;
+..\..\UCGUI\GUI\Widget\LISTVIEW_UserData.c(40): error:  #20: identifier "pRow" is undefined
+        LISTVIEW_ROW * pRow;
+..\..\UCGUI\GUI\Widget\LISTVIEW_UserData.c(41): error:  #29: expected an expression
+        pRow = (LISTVIEW_ROW *)GUI_ARRAY_GetpItem(&pObj->RowArray, Row);
+..\..\UCGUI\GUI\Widget\LISTVIEW_UserData.c(41): error:  #65: expected a ";"
+        pRow = (LISTVIEW_ROW *)GUI_ARRAY_GetpItem(&pObj->RowArray, Row);
+..\..\UCGUI\GUI\Widget\LISTVIEW_UserData.c(59): warning:  #223-D: function "LISTVIEW__GetNumRows" declared implicitly
+      if (Row < LISTVIEW__GetNumRows(pObj)) {
+..\..\UCGUI\GUI\Widget\LISTVIEW_UserData.c(60): error:  #20: identifier "LISTVIEW_ROW" is undefined
+        LISTVIEW_ROW * pRow;
+..\..\UCGUI\GUI\Widget\LISTVIEW_UserData.c(60): error:  #20: identifier "pRow" is undefined
+        LISTVIEW_ROW * pRow;
+..\..\UCGUI\GUI\Widget\LISTVIEW_UserData.c(61): error:  #29: expected an expression
+        pRow = (LISTVIEW_ROW *)GUI_ARRAY_GetpItem(&pObj->RowArray, Row);
+..\..\UCGUI\GUI\Widget\LISTVIEW_UserData.c(61): error:  #65: expected a ";"
+        pRow = (LISTVIEW_ROW *)GUI_ARRAY_GetpItem(&pObj->RowArray, Row);
+..\..\UCGUI\GUI\Widget\LISTVIEW_UserData.c: 2 warnings, 8 errors
+compiling SCROLLBAR_SetColor.c...
+..\..\UCGUI\GUI\Widget\SCROLLBAR_SetColor.c(40): error:  #136: struct "<unnamed>" has no field "Props"
+      if (Index < 
+UI_COUNTOF(pObj->Props.aColor)) {
+..\..\UCGUI\GUI\Widget\SCROLLBAR_SetColor.c(40): error:  #136: struct "<unnamed>" has no field "Props"
+      if (Index < 
+UI_COUNTOF(pObj->Props.aColor)) {
+..\..\UCGUI\GUI\Widget\SCROLLBAR_SetColor.c(41): error:  #136: struct "<unnamed>" has no field "Props"
+        OldColor = pObj->Props.aColor[Index];
+..\..\UCGUI\GUI\Widget\SCROLLBAR_SetColor.c(43): error:  #136: struct "<unnamed>" has no field "Props"
+          pObj->Props.aColor[Index] = Color;
+..\..\UCGUI\GUI\Widget\SCROLLBAR_SetColor.c: 0 warnings, 4 errors
+compiling TEXT_Default.c...
+..\..\UCGUI\GUI\Widget\TEXT_Default.c(36): error:  #20: identifier "TEXT__DefaultProps" is undefined
+    TEXT__DefaultProps.pFont = pFont;
+..\..\UCGUI\GUI\Widget\TEXT_Default.c(44): error:  #20: identifier "TEXT__DefaultProps" is undefined
+    TEXT__DefaultProps.TextColor = Color;
+..\..\UCGUI\GUI\Widget\TEXT_Default.c(52): error:  #20: identifier "TEXT__DefaultProps" is undefined
+    return TEXT__DefaultProps.pFont;
+..\..\UCGUI\GUI\Widget\TEXT_Default.c(61): error:  #20: identifier "TEXT__DefaultProps" is undefined
+    OldWrapMode = TEXT__DefaultProps.WrapMode;
+..\..\UCGUI\GUI\Widget\TEXT_Default.c: 0 warnings, 4 errors
+compiling TEXT_SetWrapMode.c...
+..\..\UCGUI\GUI\Widget\TEXT_SetWrapMode.c(39): error:  #136: struct "<unnamed>" has no field "Props"
+      if (pObj->Props.WrapMode != WrapMode) {
+..\..\UCGUI\GUI\Widget\TEXT_SetWrapMode.c(40): error:  #136: struct "<unnamed>" has no field "Props"
+        pObj->Props.WrapMode = WrapMode;
+..\..\UCGUI\GUI\Widget\TEXT_SetWrapMode.c: 0 warnings, 2 errors
+"..\..\Output\Template.axf" - 176 Error(s), 31 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  G:\STM32_UCOSii\UCGUI\Project\RVMDK（uv5）\RTE
+  D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:13
+</pre>
+</body>
+</html>

@@ -1,0 +1,14 @@
+..\..\output\wmmemdev.o: ..\..\UCGUI\GUI\WM\WMMemDev.c
+..\..\output\wmmemdev.o: ..\..\UCGUI\GUI\WM\WM_Intern.h
+..\..\output\wmmemdev.o: ..\..\UCGUI\GUI\WM\WM.h
+..\..\output\wmmemdev.o: ..\..\UCGUI\GUI\Core\GUI_ConfDefaults.h
+..\..\output\wmmemdev.o: ..\..\UCGUI\Config\GUIConf.h
+..\..\output\wmmemdev.o: ..\..\UCGUI\GUI\Core\GUIType.h
+..\..\output\wmmemdev.o: ..\..\UCGUI\GUI\Core\LCD.h
+..\..\output\wmmemdev.o: ..\..\UCGUI\GUI\WM\WM_GUI.h
+..\..\output\wmmemdev.o: ..\..\UCGUI\GUI\Core\GUI_Protected.h
+..\..\output\wmmemdev.o: ..\..\UCGUI\GUI\Core\GUI.h
+..\..\output\wmmemdev.o: ..\..\UCGUI\GUI\Core\GUIVersion.h
+..\..\output\wmmemdev.o: ..\..\UCGUI\GUI\Core\LCD_Protected.h
+..\..\output\wmmemdev.o: ..\..\UCGUI\GUI\Core\GUIDebug.h
+..\..\output\wmmemdev.o: ..\..\UCGUI\GUI\Core\GUI_X.h

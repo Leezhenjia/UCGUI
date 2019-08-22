@@ -1,0 +1,15 @@
+..\..\output\ucos_ii.o: ..\..\UCOSII\Core\ucos_ii.c
+..\..\output\ucos_ii.o: ..\..\UCOSII\Core\ucos_ii.h
+..\..\output\ucos_ii.o: ..\..\App\app_cfg.h
+..\..\output\ucos_ii.o: ..\..\App\os_cfg.h
+..\..\output\ucos_ii.o: ..\..\UCOSII\Port\os_cpu.h
+..\..\output\ucos_ii.o: ..\..\UCOSII\Core\os_core.c
+..\..\output\ucos_ii.o: ..\..\UCOSII\Core\os_flag.c
+..\..\output\ucos_ii.o: ..\..\UCOSII\Core\os_mbox.c
+..\..\output\ucos_ii.o: ..\..\UCOSII\Core\os_mem.c
+..\..\output\ucos_ii.o: ..\..\UCOSII\Core\os_mutex.c
+..\..\output\ucos_ii.o: ..\..\UCOSII\Core\os_q.c
+..\..\output\ucos_ii.o: ..\..\UCOSII\Core\os_sem.c
+..\..\output\ucos_ii.o: ..\..\UCOSII\Core\os_task.c
+..\..\output\ucos_ii.o: ..\..\UCOSII\Core\os_time.c
+..\..\output\ucos_ii.o: ..\..\UCOSII\Core\os_tmr.c

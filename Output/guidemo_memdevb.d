@@ -1,0 +1,13 @@
+..\..\output\guidemo_memdevb.o: ..\..\UCGUI\GUIDemo\GUIDEMO_MemDevB.c
+..\..\output\guidemo_memdevb.o: ..\..\UCGUI\GUI\Core\GUI.h
+..\..\output\guidemo_memdevb.o: ..\..\UCGUI\GUI\Core\GUI_ConfDefaults.h
+..\..\output\guidemo_memdevb.o: ..\..\UCGUI\Config\GUIConf.h
+..\..\output\guidemo_memdevb.o: ..\..\UCGUI\GUI\Core\GUIType.h
+..\..\output\guidemo_memdevb.o: ..\..\UCGUI\GUI\Core\LCD.h
+..\..\output\guidemo_memdevb.o: ..\..\UCGUI\GUI\Core\GUIVersion.h
+..\..\output\guidemo_memdevb.o: ..\..\UCGUI\GUIDemo\GUIDEMO.h
+..\..\output\guidemo_memdevb.o: ..\..\UCGUI\GUI\Core\LCD_ConfDefaults.h
+..\..\output\guidemo_memdevb.o: ..\..\UCGUI\Config\LCDConf.h
+..\..\output\guidemo_memdevb.o: ..\..\UCGUI\GUI\WM\WM.h
+..\..\output\guidemo_memdevb.o: ..\..\UCGUI\GUI\WM\WM_GUI.h
+..\..\output\guidemo_memdevb.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

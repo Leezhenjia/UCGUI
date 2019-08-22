@@ -1,0 +1,13 @@
+..\..\output\guitimer.o: ..\..\UCGUI\GUI\Core\GUITimer.c
+..\..\output\guitimer.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\guitimer.o: ..\..\UCGUI\GUI\Core\GUI_Protected.h
+..\..\output\guitimer.o: ..\..\UCGUI\GUI\Core\GUI.h
+..\..\output\guitimer.o: ..\..\UCGUI\GUI\Core\GUI_ConfDefaults.h
+..\..\output\guitimer.o: ..\..\UCGUI\Config\GUIConf.h
+..\..\output\guitimer.o: ..\..\UCGUI\GUI\Core\GUIType.h
+..\..\output\guitimer.o: ..\..\UCGUI\GUI\Core\LCD.h
+..\..\output\guitimer.o: ..\..\UCGUI\GUI\Core\GUIVersion.h
+..\..\output\guitimer.o: ..\..\UCGUI\GUI\Core\LCD_Protected.h
+..\..\output\guitimer.o: ..\..\UCGUI\GUI\Core\GUIDebug.h
+..\..\output\guitimer.o: ..\..\UCGUI\GUI\Core\GUI_X.h
+..\..\output\guitimer.o: ..\..\UCGUI\GUI\WM\WM_GUI.h

@@ -1,0 +1,17 @@
+..\..\output\jdmerge.o: ..\..\UCGUI\GUI\JPEG\jdmerge.c
+..\..\output\jdmerge.o: ..\..\UCGUI\GUI\JPEG\jinclude.h
+..\..\output\jdmerge.o: ..\..\UCGUI\GUI\JPEG\jconfig.h
+..\..\output\jdmerge.o: ..\..\UCGUI\GUI\Core\GUI.h
+..\..\output\jdmerge.o: ..\..\UCGUI\GUI\Core\GUI_ConfDefaults.h
+..\..\output\jdmerge.o: ..\..\UCGUI\Config\GUIConf.h
+..\..\output\jdmerge.o: ..\..\UCGUI\GUI\Core\GUIType.h
+..\..\output\jdmerge.o: ..\..\UCGUI\GUI\Core\LCD.h
+..\..\output\jdmerge.o: ..\..\UCGUI\GUI\Core\GUIVersion.h
+..\..\output\jdmerge.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\jdmerge.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\jdmerge.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\jdmerge.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\..\output\jdmerge.o: ..\..\UCGUI\GUI\JPEG\jpeglib.h
+..\..\output\jdmerge.o: ..\..\UCGUI\GUI\JPEG\jmorecfg.h
+..\..\output\jdmerge.o: ..\..\UCGUI\GUI\JPEG\jpegint.h
+..\..\output\jdmerge.o: ..\..\UCGUI\GUI\JPEG\jerror.h

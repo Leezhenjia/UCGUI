@@ -1,0 +1,13 @@
+..\..\output\guivalf.o: ..\..\UCGUI\GUI\Core\GUIValf.c
+..\..\output\guivalf.o: ..\..\UCGUI\GUI\Core\GUI_Protected.h
+..\..\output\guivalf.o: ..\..\UCGUI\GUI\Core\GUI.h
+..\..\output\guivalf.o: ..\..\UCGUI\GUI\Core\GUI_ConfDefaults.h
+..\..\output\guivalf.o: ..\..\UCGUI\Config\GUIConf.h
+..\..\output\guivalf.o: ..\..\UCGUI\GUI\Core\GUIType.h
+..\..\output\guivalf.o: ..\..\UCGUI\GUI\Core\LCD.h
+..\..\output\guivalf.o: ..\..\UCGUI\GUI\Core\GUIVersion.h
+..\..\output\guivalf.o: ..\..\UCGUI\GUI\Core\LCD_Protected.h
+..\..\output\guivalf.o: ..\..\UCGUI\GUI\Core\GUIDebug.h
+..\..\output\guivalf.o: ..\..\UCGUI\GUI\Core\GUI_X.h
+..\..\output\guivalf.o: ..\..\UCGUI\GUI\WM\WM_GUI.h
+..\..\output\guivalf.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h

@@ -1,0 +1,17 @@
+..\..\output\jdsample.o: ..\..\UCGUI\GUI\JPEG\jdsample.c
+..\..\output\jdsample.o: ..\..\UCGUI\GUI\JPEG\jinclude.h
+..\..\output\jdsample.o: ..\..\UCGUI\GUI\JPEG\jconfig.h
+..\..\output\jdsample.o: ..\..\UCGUI\GUI\Core\GUI.h
+..\..\output\jdsample.o: ..\..\UCGUI\GUI\Core\GUI_ConfDefaults.h
+..\..\output\jdsample.o: ..\..\UCGUI\Config\GUIConf.h
+..\..\output\jdsample.o: ..\..\UCGUI\GUI\Core\GUIType.h
+..\..\output\jdsample.o: ..\..\UCGUI\GUI\Core\LCD.h
+..\..\output\jdsample.o: ..\..\UCGUI\GUI\Core\GUIVersion.h
+..\..\output\jdsample.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\jdsample.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\jdsample.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\jdsample.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\..\output\jdsample.o: ..\..\UCGUI\GUI\JPEG\jpeglib.h
+..\..\output\jdsample.o: ..\..\UCGUI\GUI\JPEG\jmorecfg.h
+..\..\output\jdsample.o: ..\..\UCGUI\GUI\JPEG\jpegint.h
+..\..\output\jdsample.o: ..\..\UCGUI\GUI\JPEG\jerror.h

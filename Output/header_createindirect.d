@@ -1,0 +1,11 @@
+..\..\output\header_createindirect.o: ..\..\UCGUI\GUI\Widget\HEADER_CreateIndirect.c
+..\..\output\header_createindirect.o: ..\..\UCGUI\GUI\Widget\HEADER.h
+..\..\output\header_createindirect.o: ..\..\UCGUI\GUI\Core\GUI.h
+..\..\output\header_createindirect.o: ..\..\UCGUI\GUI\Core\GUI_ConfDefaults.h
+..\..\output\header_createindirect.o: ..\..\UCGUI\Config\GUIConf.h
+..\..\output\header_createindirect.o: ..\..\UCGUI\GUI\Core\GUIType.h
+..\..\output\header_createindirect.o: ..\..\UCGUI\GUI\Core\LCD.h
+..\..\output\header_createindirect.o: ..\..\UCGUI\GUI\Core\GUIVersion.h
+..\..\output\header_createindirect.o: ..\..\UCGUI\GUI\WM\WM.h
+..\..\output\header_createindirect.o: ..\..\UCGUI\GUI\WM\WM_GUI.h
+..\..\output\header_createindirect.o: ..\..\UCGUI\GUI\Widget\DIALOG_Intern.h

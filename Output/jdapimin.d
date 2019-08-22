@@ -1,0 +1,17 @@
+..\..\output\jdapimin.o: ..\..\UCGUI\GUI\JPEG\jdapimin.c
+..\..\output\jdapimin.o: ..\..\UCGUI\GUI\JPEG\jinclude.h
+..\..\output\jdapimin.o: ..\..\UCGUI\GUI\JPEG\jconfig.h
+..\..\output\jdapimin.o: ..\..\UCGUI\GUI\Core\GUI.h
+..\..\output\jdapimin.o: ..\..\UCGUI\GUI\Core\GUI_ConfDefaults.h
+..\..\output\jdapimin.o: ..\..\UCGUI\Config\GUIConf.h
+..\..\output\jdapimin.o: ..\..\UCGUI\GUI\Core\GUIType.h
+..\..\output\jdapimin.o: ..\..\UCGUI\GUI\Core\LCD.h
+..\..\output\jdapimin.o: ..\..\UCGUI\GUI\Core\GUIVersion.h
+..\..\output\jdapimin.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\jdapimin.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\jdapimin.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\jdapimin.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\..\output\jdapimin.o: ..\..\UCGUI\GUI\JPEG\jpeglib.h
+..\..\output\jdapimin.o: ..\..\UCGUI\GUI\JPEG\jmorecfg.h
+..\..\output\jdapimin.o: ..\..\UCGUI\GUI\JPEG\jpegint.h
+..\..\output\jdapimin.o: ..\..\UCGUI\GUI\JPEG\jerror.h

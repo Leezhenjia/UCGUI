@@ -1,0 +1,14 @@
+..\..\output\guiarc.o: ..\..\UCGUI\GUI\Core\GUIArc.c
+..\..\output\guiarc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\guiarc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+..\..\output\guiarc.o: ..\..\UCGUI\GUI\Core\GUI_Protected.h
+..\..\output\guiarc.o: ..\..\UCGUI\GUI\Core\GUI.h
+..\..\output\guiarc.o: ..\..\UCGUI\GUI\Core\GUI_ConfDefaults.h
+..\..\output\guiarc.o: ..\..\UCGUI\Config\GUIConf.h
+..\..\output\guiarc.o: ..\..\UCGUI\GUI\Core\GUIType.h
+..\..\output\guiarc.o: ..\..\UCGUI\GUI\Core\LCD.h
+..\..\output\guiarc.o: ..\..\UCGUI\GUI\Core\GUIVersion.h
+..\..\output\guiarc.o: ..\..\UCGUI\GUI\Core\LCD_Protected.h
+..\..\output\guiarc.o: ..\..\UCGUI\GUI\Core\GUIDebug.h
+..\..\output\guiarc.o: ..\..\UCGUI\GUI\Core\GUI_X.h
+..\..\output\guiarc.o: ..\..\UCGUI\GUI\WM\WM_GUI.h

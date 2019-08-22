@@ -1,0 +1,17 @@
+..\..\output\jdcoefct.o: ..\..\UCGUI\GUI\JPEG\jdcoefct.c
+..\..\output\jdcoefct.o: ..\..\UCGUI\GUI\JPEG\jinclude.h
+..\..\output\jdcoefct.o: ..\..\UCGUI\GUI\JPEG\jconfig.h
+..\..\output\jdcoefct.o: ..\..\UCGUI\GUI\Core\GUI.h
+..\..\output\jdcoefct.o: ..\..\UCGUI\GUI\Core\GUI_ConfDefaults.h
+..\..\output\jdcoefct.o: ..\..\UCGUI\Config\GUIConf.h
+..\..\output\jdcoefct.o: ..\..\UCGUI\GUI\Core\GUIType.h
+..\..\output\jdcoefct.o: ..\..\UCGUI\GUI\Core\LCD.h
+..\..\output\jdcoefct.o: ..\..\UCGUI\GUI\Core\GUIVersion.h
+..\..\output\jdcoefct.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\jdcoefct.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\jdcoefct.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\jdcoefct.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\..\output\jdcoefct.o: ..\..\UCGUI\GUI\JPEG\jpeglib.h
+..\..\output\jdcoefct.o: ..\..\UCGUI\GUI\JPEG\jmorecfg.h
+..\..\output\jdcoefct.o: ..\..\UCGUI\GUI\JPEG\jpegint.h
+..\..\output\jdcoefct.o: ..\..\UCGUI\GUI\JPEG\jerror.h

@@ -1,0 +1,17 @@
+..\..\output\lcdcolor.o: ..\..\UCGUI\GUI\Core\LCDColor.c
+..\..\output\lcdcolor.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\lcdcolor.o: ..\..\UCGUI\GUI\Core\GUI_Private.h
+..\..\output\lcdcolor.o: ..\..\UCGUI\GUI\Core\GUI_Protected.h
+..\..\output\lcdcolor.o: ..\..\UCGUI\GUI\Core\GUI.h
+..\..\output\lcdcolor.o: ..\..\UCGUI\GUI\Core\GUI_ConfDefaults.h
+..\..\output\lcdcolor.o: ..\..\UCGUI\Config\GUIConf.h
+..\..\output\lcdcolor.o: ..\..\UCGUI\GUI\Core\GUIType.h
+..\..\output\lcdcolor.o: ..\..\UCGUI\GUI\Core\LCD.h
+..\..\output\lcdcolor.o: ..\..\UCGUI\GUI\Core\GUIVersion.h
+..\..\output\lcdcolor.o: ..\..\UCGUI\GUI\Core\LCD_Protected.h
+..\..\output\lcdcolor.o: ..\..\UCGUI\GUI\Core\GUIDebug.h
+..\..\output\lcdcolor.o: ..\..\UCGUI\GUI\Core\GUI_X.h
+..\..\output\lcdcolor.o: ..\..\UCGUI\GUI\WM\WM_GUI.h
+..\..\output\lcdcolor.o: ..\..\UCGUI\GUI\Core\LCD_Private.h
+..\..\output\lcdcolor.o: ..\..\UCGUI\GUI\Core\LCD_ConfDefaults.h
+..\..\output\lcdcolor.o: ..\..\UCGUI\Config\LCDConf.h

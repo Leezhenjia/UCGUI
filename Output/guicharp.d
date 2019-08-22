@@ -1,0 +1,17 @@
+..\..\output\guicharp.o: ..\..\UCGUI\GUI\Core\GUICharP.c
+..\..\output\guicharp.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\guicharp.o: ..\..\UCGUI\GUI\Core\GUI_Private.h
+..\..\output\guicharp.o: ..\..\UCGUI\GUI\Core\GUI_Protected.h
+..\..\output\guicharp.o: ..\..\UCGUI\GUI\Core\GUI.h
+..\..\output\guicharp.o: ..\..\UCGUI\GUI\Core\GUI_ConfDefaults.h
+..\..\output\guicharp.o: ..\..\UCGUI\Config\GUIConf.h
+..\..\output\guicharp.o: ..\..\UCGUI\GUI\Core\GUIType.h
+..\..\output\guicharp.o: ..\..\UCGUI\GUI\Core\LCD.h
+..\..\output\guicharp.o: ..\..\UCGUI\GUI\Core\GUIVersion.h
+..\..\output\guicharp.o: ..\..\UCGUI\GUI\Core\LCD_Protected.h
+..\..\output\guicharp.o: ..\..\UCGUI\GUI\Core\GUIDebug.h
+..\..\output\guicharp.o: ..\..\UCGUI\GUI\Core\GUI_X.h
+..\..\output\guicharp.o: ..\..\UCGUI\GUI\WM\WM_GUI.h
+..\..\output\guicharp.o: ..\..\UCGUI\GUI\Core\LCD_Private.h
+..\..\output\guicharp.o: ..\..\UCGUI\GUI\Core\LCD_ConfDefaults.h
+..\..\output\guicharp.o: ..\..\UCGUI\Config\LCDConf.h

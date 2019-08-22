@@ -1,0 +1,11 @@
+..\..\output\editulong.o: ..\..\UCGUI\GUI\Widget\EDITUlong.c
+..\..\output\editulong.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\..\output\editulong.o: ..\..\UCGUI\GUI\Widget\EDIT_Private.h
+..\..\output\editulong.o: ..\..\UCGUI\GUI\Core\GUIDebug.h
+..\..\output\editulong.o: ..\..\UCGUI\GUI\Core\GUI.h
+..\..\output\editulong.o: ..\..\UCGUI\GUI\Core\GUI_ConfDefaults.h
+..\..\output\editulong.o: ..\..\UCGUI\Config\GUIConf.h
+..\..\output\editulong.o: ..\..\UCGUI\GUI\Core\GUIType.h
+..\..\output\editulong.o: ..\..\UCGUI\GUI\Core\LCD.h
+..\..\output\editulong.o: ..\..\UCGUI\GUI\Core\GUIVersion.h
+..\..\output\editulong.o: ..\..\UCGUI\GUI\Core\GUI_X.h

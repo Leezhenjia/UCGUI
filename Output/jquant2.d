@@ -1,0 +1,17 @@
+..\..\output\jquant2.o: ..\..\UCGUI\GUI\JPEG\jquant2.c
+..\..\output\jquant2.o: ..\..\UCGUI\GUI\JPEG\jinclude.h
+..\..\output\jquant2.o: ..\..\UCGUI\GUI\JPEG\jconfig.h
+..\..\output\jquant2.o: ..\..\UCGUI\GUI\Core\GUI.h
+..\..\output\jquant2.o: ..\..\UCGUI\GUI\Core\GUI_ConfDefaults.h
+..\..\output\jquant2.o: ..\..\UCGUI\Config\GUIConf.h
+..\..\output\jquant2.o: ..\..\UCGUI\GUI\Core\GUIType.h
+..\..\output\jquant2.o: ..\..\UCGUI\GUI\Core\LCD.h
+..\..\output\jquant2.o: ..\..\UCGUI\GUI\Core\GUIVersion.h
+..\..\output\jquant2.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\jquant2.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\jquant2.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\jquant2.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\..\output\jquant2.o: ..\..\UCGUI\GUI\JPEG\jpeglib.h
+..\..\output\jquant2.o: ..\..\UCGUI\GUI\JPEG\jmorecfg.h
+..\..\output\jquant2.o: ..\..\UCGUI\GUI\JPEG\jpegint.h
+..\..\output\jquant2.o: ..\..\UCGUI\GUI\JPEG\jerror.h

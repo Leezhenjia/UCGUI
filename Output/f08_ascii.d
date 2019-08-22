@@ -1,0 +1,8 @@
+..\..\output\f08_ascii.o: ..\..\UCGUI\GUI\Font\F08_ASCII.c
+..\..\output\f08_ascii.o: ..\..\UCGUI\GUI\Core\GUI_FontIntern.h
+..\..\output\f08_ascii.o: ..\..\UCGUI\GUI\Core\GUI.h
+..\..\output\f08_ascii.o: ..\..\UCGUI\GUI\Core\GUI_ConfDefaults.h
+..\..\output\f08_ascii.o: ..\..\UCGUI\Config\GUIConf.h
+..\..\output\f08_ascii.o: ..\..\UCGUI\GUI\Core\GUIType.h
+..\..\output\f08_ascii.o: ..\..\UCGUI\GUI\Core\LCD.h
+..\..\output\f08_ascii.o: ..\..\UCGUI\GUI\Core\GUIVersion.h
